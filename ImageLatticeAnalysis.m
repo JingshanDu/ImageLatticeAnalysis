@@ -11,12 +11,14 @@
 % Jingshan S. Du, Northwestern University
 % du@u.northwestern.edu
 % Please cite the following article if you use this code in your research:
-% .....
+% Particle analogs of electrons in colloidal crystals.
+% Martin Girard†, Shunzhi Wang†, Jingshan S. Du†, Anindita Das†, Ziyin Huang, Vinayak P. Dravid, Byeongdu Lee, Chad A. Mirkin, Monica Olvera de la Cruz.
+% Science, 2019, 364 (6446), 1174-1178. [DOI:10.1126/science.aaw8237]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% Setup %%%
 % Define file path
-strImagePath = fullfile('workspace','0268-BPF3px-12.67deg.bmp');
+strImagePath = fullfile('workspace','0268-BPF3px-12.67deg.bmp'); % Image path: 'subfolder name', 'file name'
 % Define mesh
 meshALength = 390; % in pixel
 meshBLength = 365; % in pixel
