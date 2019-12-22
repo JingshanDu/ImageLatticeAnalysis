@@ -1,5 +1,5 @@
 # ImageLatticeAnalysis
-This MATLAB tool segments an image usindg a periodic 2D parallelogram mesh and stack them together for further analysis. An example use is to segment a lattice image into individual unit cells. Note: one axis of the lattice is always horizontal. Rotate original image before processindg when necessary.
+This MATLAB tool segments an image usindg a periodic 2D parallelogram mesh and stack them together for further analysis. An example use is to segment a lattice image into individual unit cells. Note: one axis of the lattice is always horizontal. Rotate original image before processing when necessary.
 
 Please cite the following publication upon use:
 
