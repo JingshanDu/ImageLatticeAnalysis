@@ -67,7 +67,9 @@ for iy = 0:(ny-1)
         if ~exist(fullfile('workspace','output'), 'dir')
             mkdir(fullfile('workspace','output'));
         end
-        imwrite(outimg, fullfile('workspace','output',strcat('y',num2str(iy),'x',num2str(ix),'.bmp')));
+        if any(any(outimg))
+            imwrite(outimg, fullfile('workspace','output',strcat('y',num2str(iy),'x',num2str(ix),'.bmp')));
+        end
     end
 end
 
